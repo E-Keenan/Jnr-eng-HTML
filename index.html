@@ -5,7 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>My Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--Main Styling-->
+  <link href="/Jnr-eng-HTML/Assets/CSS/style.css" rel="stylesheet" type="text/css" />
+  
+  <!--Game Styling-->
+  <link href="/Jnr-eng-HTML/Assets/CSS/blockJump.css"  rel="stylesheet" type="text/css"/>
+  
 </head>
 
 <body>
@@ -44,10 +49,33 @@
       </section>
       <section class='section projects'  id='projects'>
         <h2 class='section-title'>My Projects</h2>
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
+        <ul class = "projects-list">
+          <li> 
+            <div class = "project">
+              <h3 class="project-title">Block Jump</h3>
+              <div class = "project-game" id="game1-container">
+                <div id="game1-character"></div> 
+                <div id="game1-block"></div></div>
+              <p class = "project-date">05 / 09 / 2024</p>
+              <p class = "project-description"></p>
+              </div> 
+          </li>
+          <li> 
+            <div class = "project">
+              <h3 class="project-title">Project 2</h3>
+              <div class = "project-game"></div> 
+              <p class = "project-date"></p>
+              <p class = "project-description"></p>
+              </div> 
+          </li>
+          <li> 
+            <div class = "project">
+              <h3 class="project-title">Project 3</h3>
+              <div class = "project-game"></div> 
+              <p class = "project-date"></p>
+              <p class = "project-description"></p>
+              </div> 
+          </li>
           
         </ul>
       </section>
@@ -60,6 +88,8 @@
     <footer>
       <p class="footer-text">&copy; 2024 Ethan Keenan</p>
     </footer>
+    <!--=================JS=================-->
+    <script src = "Assets/js/blockJump.js"></script>
   
 </body>
 

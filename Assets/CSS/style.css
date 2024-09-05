@@ -120,7 +120,45 @@ h1{
 
 /*Projects*/
 .projects{
-  background-color: orange;
+  background-color: whitesmoke;
+  
+}
+
+.projects-list{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  
+}
+
+.project{
+  padding: 10px;
+  border-bottom: 2px gray;
+  width: 600px;
+
+}
+
+.project-title{
+  text-transform: uppercase;
+}
+
+.project-description{
+  padding-top: 10px;
+
+}
+
+.project-game{
+  width: 580px;
+  height: 380px;
+  border: 2px solid black
+
+}
+
+.project-date{
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+
 }
 
 /*Contact*/
